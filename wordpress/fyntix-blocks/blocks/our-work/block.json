@@ -35,5 +35,6 @@
     "align": ["full"],
     "anchor": true
   },
+  "viewScript": "file:../../build/blocks/our-work/view.js",
   "render": "file:./render.php"
 }

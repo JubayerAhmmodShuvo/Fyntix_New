@@ -43,5 +43,5 @@
     "anchor": true
   },
   "render": "file:./render.php",
-  "viewScript": "file:./view.js"
+  "viewScript": "file:../../build/blocks/growth-stats/view.js"
 }

@@ -39,5 +39,6 @@
     }
   },
   "editorScript": "file:./index.js",
+  "viewScript": "file:../../build/blocks/hero/view.js",
   "render": "file:./render.php"
 }

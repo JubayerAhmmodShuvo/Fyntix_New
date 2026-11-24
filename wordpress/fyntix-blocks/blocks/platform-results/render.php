@@ -24,8 +24,27 @@ $wrapper_attributes = get_block_wrapper_attributes([
 			</p>
 		</div>
 		
-		<div class="fyntix-platform-results__grid">
-			<?php foreach ($results as $result): ?>
+		<!-- Tab Navigation -->
+		<div class="platform-tabs" role="tablist" aria-label="Platform results">
+			<?php foreach ($results as $index => $result): ?>
+			<button role="tab" 
+					id="platform-tab-<?php echo $index; ?>"
+					aria-controls="platform-panel-<?php echo $index; ?>"
+					aria-selected="<?php echo $index === 0 ? 'true' : 'false'; ?>"
+					tabindex="<?php echo $index === 0 ? '0' : '-1'; ?>"
+					class="platform-tab <?php echo $index === 0 ? 'platform-tab--active' : 'platform-tab--inactive'; ?>">
+				<?php echo esc_html($result['platform']); ?>
+			</button>
+			<?php endforeach; ?>
+		</div>
+		
+		<!-- Tab Panels (all server-rendered) -->
+		<?php foreach ($results as $index => $result): ?>
+		<div role="tabpanel"
+			 id="platform-panel-<?php echo $index; ?>"
+			 aria-labelledby="platform-tab-<?php echo $index; ?>"
+			 <?php echo $index !== 0 ? 'hidden' : ''; ?>
+			 class="platform-panel">
 			<article class="fyntix-platform-result">
 				<div class="fyntix-platform-result__platform">
 					<?php echo esc_html($result['platform']); ?>
@@ -37,8 +56,8 @@ $wrapper_attributes = get_block_wrapper_attributes([
 					<?php echo esc_html($result['description']); ?>
 				</div>
 			</article>
-			<?php endforeach; ?>
 		</div>
+		<?php endforeach; ?>
 	</div>
 </section>
 
@@ -75,10 +94,44 @@ $wrapper_attributes = get_block_wrapper_attributes([
 	color: var(--wp--preset--color--haze-800, #6f6f6f);
 }
 
-.fyntix-platform-results__grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-	gap: 2rem;
+.platform-tabs {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-bottom: 3rem;
+	flex-wrap: wrap;
+}
+
+.platform-tab {
+	padding: 0.75rem 1.5rem;
+	background: transparent;
+	border: 2px solid var(--wp--preset--color--haze-300, #e0e0e0);
+	border-radius: 9999px;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--wp--preset--color--slatecolor, #262626);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.platform-tab:hover {
+	border-color: var(--wp--preset--color--spark, #f75d3b);
+	color: var(--wp--preset--color--spark, #f75d3b);
+}
+
+.platform-tab--active {
+	background: var(--wp--preset--color--spark, #f75d3b);
+	border-color: var(--wp--preset--color--spark, #f75d3b);
+	color: var(--wp--preset--color--chalk, #fff);
+}
+
+.platform-tab--active:hover {
+	color: var(--wp--preset--color--chalk, #fff);
+}
+
+.platform-panel {
+	max-width: 40rem;
+	margin: 0 auto;
 }
 
 .fyntix-platform-result {

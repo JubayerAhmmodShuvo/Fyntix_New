@@ -42,5 +42,6 @@
     "align": ["full", "wide"],
     "anchor": true
   },
+  "viewScript": "file:../../build/blocks/platform-results/view.js",
   "render": "file:./render.php"
 }
