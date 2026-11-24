@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/our-work",
+  "title": "Our Work (Case Studies)",
+  "category": "fyntix",
+  "icon": "portfolio",
+  "description": "Display case study cards with metrics",
+  "keywords": ["work", "case studies", "portfolio", "projects"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our work"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "From pilots to products people use every day."
+    },
+    "caseStudies": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Search ads. Real jobs.",
+          "description": "A focused Google Search programme, with a detailed view of enquiries, bookings and business growth.",
+          "metric": "$33.7k",
+          "metricLabel": "Google Ads spend",
+          "image": "",
+          "link": "/work"
+        }
+      ]
+    }
+  },
+  "supports": {
+    "align": ["full"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}
