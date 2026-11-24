@@ -1,128 +1,62 @@
 <?php
 /**
- * Hero Block Template
- *
- * @param array $attributes Block attributes
- * @param string $content Block content
- * @param WP_Block $block Block instance
+ * Hero Block - Exact match to original
  */
 
-$title = $attributes['title'] ?? 'Business growth that gets you seen';
-$subtitle = $attributes['subtitle'] ?? 'Fyntix is a business growth agency. We make sure your customers find you everywhere, from Google Search to ChatGPT.';
-$cta_text = $attributes['ctaText'] ?? 'Get started';
-$cta_url = $attributes['ctaUrl'] ?? '/contact';
-$bg_color = $attributes['backgroundColor'] ?? 'chalk';
-
 $wrapper_attributes = get_block_wrapper_attributes([
-	'class' => 'fyntix-hero has-' . esc_attr($bg_color) . '-background-color',
+	'class' => 'fyntix-hero page-shell relative min-h-screen flex items-center justify-center',
 	'id' => 'section-hero',
 ]);
 ?>
 
 <section <?php echo $wrapper_attributes; ?>>
-	<div class="fyntix-hero__content container">
-		<div class="fyntix-hero__inner">
-			<h1 class="fyntix-hero__title">
-				<?php echo esc_html($title); ?>
-			</h1>
-			
-			<p class="fyntix-hero__subtitle">
-				<?php echo esc_html($subtitle); ?>
-			</p>
-			
-			<?php if ($cta_text && $cta_url): ?>
-			<div class="fyntix-hero__cta">
-				<a href="<?php echo esc_url($cta_url); ?>" class="wp-block-button__link wp-element-button">
-					<?php echo esc_html($cta_text); ?>
-				</a>
-			</div>
-			<?php endif; ?>
+	<div class="fyntix-hero__content container text-center px-gutter max-md:px-gutter-mobile py-32">
+		<h1 class="fyntix-hero__title text-6xl md:text-7xl lg:text-8xl font-medium leading-tight mb-6">
+			Business growth that gets you <em class="font-serif italic font-normal">seen</em>
+		</h1>
+		
+		<p class="fyntix-hero__subtitle text-xl md:text-2xl text-slatecolor max-w-3xl mx-auto mb-12">
+			Fyntix is a business growth agency. We make sure your customers find you everywhere, from Google Search to ChatGPT.
+		</p>
+		
+		<div class="fyntix-hero__actions flex gap-4 justify-center flex-wrap">
+			<a href="/contact" class="inline-flex items-center justify-center rounded-full px-8 py-3 text-lg font-medium bg-charcoal text-chalk hover:bg-slate-dark transition-colors shadow-button">
+				Contact
+			</a>
+			<a href="/#our-work" class="inline-flex items-center justify-center rounded-full px-8 py-3 text-lg font-medium border-2 border-haze-300 text-slatecolor bg-chalk hover:bg-haze transition-colors">
+				Our work
+			</a>
 		</div>
 	</div>
 </section>
 
 <style>
 .fyntix-hero {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	min-height: 80vh;
-	padding: 3rem 0;
-	text-align: center;
+	position: relative;
+	z-index: 1;
+	background: transparent !important;
 }
-
-.fyntix-hero__content {
-	max-width: 75rem;
-	margin: 0 auto;
+.fyntix-hero__title {
+	color: var(--wp--preset--color--slatecolor, #262626);
+	font-family: var(--wp--preset--font-family--inter-display, sans-serif);
+	letter-spacing: -0.04em;
+}
+.fyntix-hero__title em {
+	font-family: var(--wp--preset--font-family--instrument-serif, serif);
+	font-style: italic;
+	font-weight: 400;
+}
+.px-gutter {
 	padding-left: clamp(1.5rem, 5vw, 3rem);
 	padding-right: clamp(1.5rem, 5vw, 3rem);
 }
-
-.fyntix-hero__inner {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 2.75rem;
-	max-width: 60rem;
-	margin: 0 auto;
-}
-
-.fyntix-hero__title {
-	margin: 0;
-	font-family: 'Inter Display', sans-serif;
-	font-size: clamp(2.5rem, 5vw, 4.75rem);
-	font-weight: 500;
-	font-style: normal;
-	line-height: 1.05;
-	letter-spacing: -0.04em;
-	color: var(--wp--preset--color--slatecolor, #262626);
-}
-
-.fyntix-hero__subtitle {
-	max-width: 35rem;
-	margin: 0;
-	font-family: 'Inter Display', sans-serif;
-	font-size: 1.125rem;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1.55;
-	letter-spacing: 0;
-	color: var(--wp--preset--color--haze-800, #6f6f6f);
-}
-
-.fyntix-hero__cta {
-	margin-top: 1rem;
-}
-
-.fyntix-hero__cta .wp-block-button__link {
-	background-color: var(--wp--preset--color--spark, #f75d3b);
-	color: var(--wp--preset--color--chalk, #fff);
-	padding: 0.875rem 1.5rem;
-	font-size: 1rem;
-	font-weight: 500;
-	border-radius: 9999px;
-	text-decoration: none;
-	transition: background-color 0.2s ease;
-}
-
-.fyntix-hero__cta .wp-block-button__link:hover {
-	background-color: #e14b2b;
-}
-
 @media (max-width: 767px) {
-	.fyntix-hero {
-		min-height: 70vh;
-		padding: 2rem 0;
+	.max-md\:px-gutter-mobile {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
 	}
-	
-	.fyntix-hero__title {
-		font-size: 2.5rem;
-		line-height: 1.1;
-	}
-	
-	.fyntix-hero__subtitle {
-		font-size: 1rem;
-	}
+}
+.shadow-button {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 </style>
