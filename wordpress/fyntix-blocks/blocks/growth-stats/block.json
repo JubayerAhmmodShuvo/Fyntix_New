@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/growth-stats",
+  "title": "Growth Stats",
+  "category": "fyntix",
+  "icon": "chart-line",
+  "description": "Display growth statistics with animated counters",
+  "keywords": ["stats", "metrics", "numbers", "growth"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Growth you can measure"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Every number comes from a real client account and lands in your report each month."
+    },
+    "stats": {
+      "type": "array",
+      "default": [
+        {
+          "value": "2.4B",
+          "label": "organic views",
+          "suffix": "across client accounts in 2025"
+        },
+        {
+          "value": "38M",
+          "label": "conversions",
+          "suffix": "for brands since 2021"
+        },
+        {
+          "value": "4.1×",
+          "label": "average ROI",
+          "suffix": "reported monthly"
+        }
+      ]
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true
+  },
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

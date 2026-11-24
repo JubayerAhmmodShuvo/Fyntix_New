@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/report-mockup",
+  "title": "Report Mockup",
+  "category": "fyntix",
+  "icon": "media-document",
+  "description": "Display a weekly report mockup with stats",
+  "keywords": ["report", "mockup", "dashboard", "analytics"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Weekly report you'll actually read"
+    },
+    "description": {
+      "type": "string",
+      "default": "One page, every Monday: what grew, what flopped and what we're filming next."
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}

@@ -1,0 +1,27 @@
+/* Fyntix Custom Blocks - Editor Styles */
+
+.fyntix-hero,
+.fyntix-logo-strip,
+.fyntix-growth-stats,
+.fyntix-platform-results,
+.fyntix-services-pillar,
+.fyntix-timeline,
+.fyntix-report-mockup,
+.fyntix-testimonials,
+.fyntix-cta {
+	position: relative;
+	min-height: 100px;
+}
+
+/* Editor-specific adjustments */
+.editor-styles-wrapper .fyntix-hero__title,
+.editor-styles-wrapper .fyntix-growth-stats__title,
+.editor-styles-wrapper .fyntix-services-pillar__title {
+	word-break: break-word;
+}
+
+.editor-styles-wrapper .fyntix-growth-stat,
+.editor-styles-wrapper .fyntix-service-card,
+.editor-styles-wrapper .fyntix-testimonial {
+	cursor: pointer;
+}

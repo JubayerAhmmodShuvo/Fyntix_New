@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/services-pillar",
+  "title": "Services Pillar",
+  "category": "fyntix",
+  "icon": "grid-view",
+  "description": "Display services in a pillar format with descriptions",
+  "keywords": ["services", "offerings", "features"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Search & AI Visibility"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Get found in search and AI answers"
+    },
+    "description": {
+      "type": "string",
+      "default": "We bring SEO, GEO, AEO and AIO into one strategy."
+    },
+    "services": {
+      "type": "array",
+      "default": [
+        {
+          "title": "SEO Strategy & Optimisation",
+          "description": "Build an organic search foundation around relevant intent."
+        },
+        {
+          "title": "GEO, AEO & AIO",
+          "description": "Make your expertise easier for answer engines to understand."
+        },
+        {
+          "title": "AI Search Visibility",
+          "description": "Understand how your brand appears in AI-assisted discovery."
+        }
+      ]
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "charcoal"
+    }
+  },
+  "supports": {
+    "align": ["full"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}

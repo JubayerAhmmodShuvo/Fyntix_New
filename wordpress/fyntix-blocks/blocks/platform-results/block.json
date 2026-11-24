@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/platform-results",
+  "title": "Platform Results",
+  "category": "fyntix",
+  "icon": "chart-bar",
+  "description": "Display platform-specific results with tabs",
+  "keywords": ["results", "case studies", "platforms", "tabs"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Results you can see, post by post"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Pick a platform. Every case is a real client account."
+    },
+    "results": {
+      "type": "array",
+      "default": [
+        {
+          "platform": "Instagram",
+          "metric": "248K",
+          "description": "orders from one Reel"
+        },
+        {
+          "platform": "TikTok",
+          "metric": "1.1M",
+          "description": "views in first week"
+        },
+        {
+          "platform": "YouTube",
+          "metric": "18K",
+          "description": "conversions tracked"
+        }
+      ]
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}

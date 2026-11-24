@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/testimonials",
+  "title": "Testimonials",
+  "category": "fyntix",
+  "icon": "format-quote",
+  "description": "Display client testimonials and stories",
+  "keywords": ["testimonials", "quotes", "reviews", "stories"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Stories from client partnerships"
+    },
+    "testimonials": {
+      "type": "array",
+      "default": [
+        {
+          "quote": "I would recommend Fyntix to anyone who's got ambitious plans to accelerate their roadmap.",
+          "author": "Julie Jeancolas",
+          "role": "Global Head of Product",
+          "company": "Tesco"
+        }
+      ]
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}
