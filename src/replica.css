@@ -1,0 +1,91 @@
+@font-face { font-family:"Inter Display";src:url("/fonts/InterDisplay-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap }
+@font-face { font-family:"Inter Display";src:url("/fonts/InterDisplay-Medium.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap }
+@font-face { font-family:"Inter Display";src:url("/fonts/InterDisplay-Semibold.woff2") format("woff2");font-style:normal;font-weight:600;font-display:swap }
+/* Taffy uses Inter for bold and italic variants of its Inter Display text. */
+@font-face { font-family:"Inter Display";src:url("/fonts/Inter-Bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:swap }
+@font-face { font-family:"Inter Display";src:url("/fonts/Inter-Italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap }
+@font-face { font-family:"Inter Display";src:url("/fonts/Inter-BoldItalic.woff2") format("woff2");font-style:italic;font-weight:700;font-display:swap }
+@font-face { font-family:"Instrument Serif";src:url("/fonts/InstrumentSerif-Italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap }
+:root { --font-sans:"Inter Display",sans-serif;--font-mono:"Inter Display",sans-serif;--font-fono:"Inter Display",sans-serif;--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono) }
+html,body { font-family:var(--font-sans) }
+.fyntix-hero-content { transform:translateY(-3rem) }
+.fyntix-social-hero-title { margin:0;font-family:"Inter Display",sans-serif;font-size:76px;font-weight:500;font-style:normal;line-height:1.05;letter-spacing:-.04em }
+.fyntix-social-hero-title__line { white-space:nowrap;font-feature-settings:"dlig" on,"lnum" on }
+.fyntix-social-hero-title__accent { font-family:"Instrument Serif",serif;font-size:82px;font-style:italic;font-weight:400;letter-spacing:-.02em;font-feature-settings:normal }
+.fyntix-hero-description { max-width:560px;margin:0 auto;font-family:"Inter Display",sans-serif;font-size:18px;font-style:normal;font-weight:400;line-height:1.55;letter-spacing:0;color:#6f6f6f }
+#contact-page .fyntix-contact-form-panel { background:#fff;border-radius:1.5rem;padding:2rem }
+#section-clients .fyntix-client-logo { max-width:min(16rem,100%);max-height:4.75rem;object-fit:contain;transform:scale(.7);transform-origin:center }
+#section-clients .fyntix-client-logo[src$="/smartrent-logo.svg"] { transform:scale(1.092) }
+#section-clients .fyntix-client-logo[src$="/possible.png"],
+#section-clients .fyntix-client-logo[src$="/the-family-plumber.svg"] { transform:scale(.77) }
+#section-clients .fyntix-client-logo--monochrome { filter:brightness(0) }
+#smartrent-hero .smartrent-case-logo { display:block;width:19rem;max-width:100%;height:auto }
+@media (min-width:810px) and (max-width:1199px) {
+  .fyntix-social-hero-title { font-size:56px;line-height:1.07 }
+  .fyntix-social-hero-title__accent { font-size:60px }
+}
+@media (max-width:809px) {
+  .fyntix-social-hero-title { font-size:40px;line-height:1.1 }
+  .fyntix-social-hero-title__accent { font-size:1.1em }
+  .fyntix-hero-description { font-size:16px }
+}
+@media (max-width:389px) {
+  .fyntix-social-hero-title { font-size:10.25vw }
+}
+@media (max-width:767px) {
+  .fyntix-hero-content { transform:translateY(-1.5rem) }
+  #contact-page .fyntix-contact-form-panel { padding:1.25rem }
+}
+.replica-defs { position:absolute;width:0;height:0;overflow:hidden;pointer-events:none }
+.replica-shell { position:relative;z-index:10;pointer-events:none }
+.replica-background { overflow:hidden }
+.replica-canvas { position:absolute;inset:0;width:100%;height:100%;pointer-events:none }
+.replica-canvas-in .replica-canvas { animation:replica-field-in .8s ease-out both }
+@keyframes replica-field-in { from { opacity:0 } }
+.replica-particle-scrim::after { content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(to bottom,#14141426,#1414148c 55%,#141414e6),radial-gradient(ellipse 70% 55% at 72% 18%,#f75d3b1f,#f75d3b00 70%) }
+.replica-nav .site-nav-desktop { min-height:4.625rem }
+.replica-nav .site-nav-mobile-bar { min-height:4.95rem;z-index:2 }
+.replica-nav .site-nav-mobile-stack > nav { z-index:2 }
+.replica-nav .site-nav-glass-segment { background:#fff;border-radius:1.5rem;-webkit-backdrop-filter:none;backdrop-filter:none }
+.replica-nav-wordmark { display:inline-flex;width:7.25rem }
+.replica-nav-wordmark img { display:block;width:100%;height:auto }
+.replica-nav .site-nav__label--inactive { color:#141414 }
+.replica-nav .site-nav__label--active { color:#fff }
+.replica-nav .site-nav-contact-button,
+.replica-nav .site-nav-contact-button:hover,
+.replica-nav .site-nav-contact-button:active { background:#000;color:#fff }
+.replica-nav .site-nav-menu-button,
+.replica-nav .site-nav-menu-button:hover,
+.replica-nav .site-nav-menu-button:active { background:#fff;color:#141414 }
+.arw-nav { background:#fff;color:#141414;border-bottom-color:#e6e6e6;-webkit-backdrop-filter:none;backdrop-filter:none }
+.arw-nav .arw-nav__logo,.arw-nav .arw-nav__links { color:#141414 }
+.arw-nav .arw-nav__links a:hover,.arw-nav .arw-nav__links a:focus-visible { color:#141414;opacity:.7 }
+.replica-nav-intro { animation:replica-nav-in .55s 1.4s cubic-bezier(.16,1,.3,1) backwards }
+@keyframes replica-nav-in { from { opacity:0;transform:translateY(calc(-100% - 3rem)) } }
+.replica-menu { position:fixed;inset:0;z-index:0;background:#fff;pointer-events:none;opacity:0;transition:opacity .45s cubic-bezier(.65,0,.35,1) }
+.replica-menu-open { opacity:1;pointer-events:auto }
+.replica-menu-particles { position:fixed;inset:50dvh 0 0;height:50dvh }
+.replica-menu .site-nav-mobile-panel-layer { filter:blur(8px);transition:filter .45s cubic-bezier(.65,0,.35,1) }
+.replica-menu-open .site-nav-mobile-panel-layer { filter:blur(0) }
+.replica-dropdown { z-index:270;display:flex;flex-direction:column;min-width:10rem;padding:.5rem;gap:.25rem;border-radius:.75rem;color:#262626;background:#fff;box-shadow:0 8px 30px #2626261c }
+.replica-dropdown > * { display:block;padding:.5rem .75rem;text-align:left;white-space:nowrap;border-radius:.5rem;font-size:var(--text-sm) }
+.replica-dropdown > *:is(:hover,:focus-visible) { background:#f4f4f4 }
+.replica-toast { position:fixed;z-index:270;bottom:1.5rem;left:50%;transform:translateX(-50%);background:#262626;color:#fff;padding:.6rem 1.2rem;border-radius:9999px;box-shadow:0 8px 30px #2626261c }
+.replica-drop { border-color:var(--color-spark);background:var(--color-spark-wash) }
+.replica-book { display:inline-flex;background:var(--color-spark);color:var(--color-chalk);font-size:var(--text-xs);font-weight:500;padding:.625rem 1.25rem;border-radius:9999px }
+.replica-book:hover { background:#e14b2b }
+@media (width <= 767px) {
+  .replica-nav-intro { animation-delay:.8s }
+}
+@media (width <= 389px) {
+  .replica-nav .site-nav-mobile-bar { gap:.5rem }
+  .replica-nav .site-nav-mobile-bar .site-nav-glass-segment { padding-inline:clamp(.75rem, calc(5vw - .5rem), 1rem) }
+}
+@media (width <= 359px) {
+  .replica-nav .site-nav-mobile-bar .replica-nav-wordmark { width:6.5rem }
+}
+@media (prefers-reduced-motion:reduce) {
+  .replica-canvas-in .replica-canvas,.replica-nav-intro { animation:none }
+  .replica-menu,.replica-menu .site-nav-mobile-panel-layer { transition:none }
+}
+.team-profile-card .media-card { align-items: stretch; cursor: default; }

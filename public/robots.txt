@@ -1,0 +1,5 @@
+# Fyntix public website
+User-agent: *
+Allow: /
+
+Sitemap: https://fyntix.example/sitemap.xml

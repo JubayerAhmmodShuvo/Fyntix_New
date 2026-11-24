@@ -1,0 +1,32 @@
+{
+  "name": "fyntix-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "node scripts/compile-blogs.mjs && node scripts/compile-site-content.mjs && tsc --noEmit && vite build && node scripts/routes.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "prebuild": "node scripts/configure-origin.mjs --auto"
+  },
+  "dependencies": {
+    "embla-carousel": "8.6.0",
+    "embla-carousel-autoplay": "8.6.0",
+    "gsap": "3.13.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "three": "0.183.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "@types/three": "0.183.1",
+    "@vitejs/plugin-react": "4.7.0",
+    "typescript": "5.8.3",
+    "vite": "6.3.5"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

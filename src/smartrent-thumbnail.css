@@ -1,0 +1,43 @@
+.smartrent-thumbnail { container-type: inline-size; }
+
+.smartrent-thumbnail__shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent 48%, rgb(0 0 0 / 12%) 65%, rgb(0 0 0 / 76%) 100%);
+}
+
+.smartrent-thumbnail__logo {
+  position: absolute;
+  top: 5.263158%;
+  left: 5.714286%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31.111111%;
+  aspect-ratio: 49 / 11;
+  border-radius: 1.587302cqw;
+  background: #fff;
+}
+
+.smartrent-thumbnail__logo img {
+  display: block;
+  width: 77.55102%;
+  height: auto;
+}
+
+.smartrent-thumbnail__results {
+  position: absolute;
+  left: 5.714286%;
+  right: 5.714286%;
+  bottom: 8.77193%;
+  display: grid;
+  gap: clamp(6px, 1.111111cqw, 14px);
+  font-family: "Inter Display", sans-serif;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+
+.smartrent-thumbnail__results p { margin: 0; line-height: 1.2; }
+.smartrent-thumbnail__metric { color: #fff; font-size: clamp(18px, 3.968254cqw, 50px); }
+.smartrent-thumbnail__value { color: #bdbdbd; font-size: clamp(14px, 2.539683cqw, 32px); }

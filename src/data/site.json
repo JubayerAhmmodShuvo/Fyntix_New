@@ -1,0 +1,26 @@
+{
+  "name": "Fyntix",
+  "origin": "https://fyntix.example",
+  "previewImage": "/brand-assets/fyntix-social.png",
+  "previewWidth": 1200,
+  "previewHeight": 630,
+  "description": "Fyntix is a business growth agency connecting Search & AI Visibility with Paid Media & Content.",
+  "email": "info@fyntix.com",
+  "address": {
+    "streetAddress": "248 Coronation Dr",
+    "addressLocality": "Scarborough",
+    "addressRegion": "ON",
+    "postalCode": "M1E 2J4",
+    "addressCountry": "CA"
+  },
+  "services": [
+    "SEO",
+    "GEO, AEO & AIO",
+    "AI search visibility",
+    "Google Ads",
+    "Meta Ads",
+    "TikTok Ads",
+    "Content strategy & creation",
+    "Growth strategy & reporting"
+  ]
+}

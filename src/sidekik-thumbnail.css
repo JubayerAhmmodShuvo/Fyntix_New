@@ -1,0 +1,16 @@
+.sidekik-logo { position: relative; display: block; aspect-ratio: 459 / 151; overflow: hidden; }
+.sidekik-logo img { position: absolute; top: -38.410596%; left: -4.139434%; display: block; width: 108.932462%; height: auto; max-width: none; }
+.sidekik-case-logo { width: 19rem; max-width: 100%; }
+
+.sidekik-thumbnail .sidekik-thumbnail__logo {
+  width: 26.666667%;
+  aspect-ratio: 49 / 19;
+  overflow: hidden;
+}
+
+.sidekik-thumbnail .sidekik-thumbnail__logo .sidekik-logo { width: 77.55102%; }
+
+.sidekik-thumbnail .smartrent-thumbnail__metric {
+  font-size: clamp(14px, 3.968254cqw, 50px);
+  white-space: nowrap;
+}

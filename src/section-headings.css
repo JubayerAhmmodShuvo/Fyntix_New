@@ -1,0 +1,115 @@
+/* Shared section treatment from the Growth and Post Results headings. */
+.fyntix-section-surface {
+  background: #fff;
+}
+
+.fyntix-feature-section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 120px 40px;
+  background: #fff;
+  color: #111;
+}
+
+.fyntix-feature-section > .fyntix-section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.fyntix-section-heading {
+  flex: none;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #111;
+  font-family: "Inter Display", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -.04em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.fyntix-section-heading__label,
+.fyntix-section-heading__body,
+.fyntix-section-heading__accent {
+  display: inline;
+}
+
+.fyntix-section-heading__line {
+  display: block;
+  white-space: nowrap;
+}
+
+.fyntix-section-heading__line--second {
+  font-size: var(--fyntix-heading-second-line-size, .92em);
+}
+
+#section-our-work-heading {
+  --fyntix-heading-second-line-size: .84em;
+}
+
+.fyntix-section-heading__accent {
+  font-family: "Instrument Serif", serif;
+  font-size: 1.04em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -.02em;
+}
+
+.fyntix-feature-section .fyntix-section-description {
+  max-width: 560px;
+  margin: 0 auto;
+  color: #6f6f6f;
+  font-family: "Inter Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+#section-our-work.fyntix-feature-section {
+  background: var(--color-charcoal, #141414);
+  color: var(--color-chalk, #fff);
+}
+
+#section-our-work .fyntix-section-heading {
+  color: var(--color-chalk, #fff);
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .fyntix-feature-section {
+    gap: 48px;
+    padding: 96px 32px;
+  }
+
+  .fyntix-section-heading {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 809.98px) {
+  .fyntix-feature-section {
+    gap: 36px;
+    padding: 72px 20px;
+  }
+
+  .fyntix-section-heading {
+    font-size: clamp(20px, 6.8vw, 32px);
+    line-height: 1.12;
+  }
+
+  .fyntix-feature-section .fyntix-section-description {
+    font-size: 16px;
+  }
+}

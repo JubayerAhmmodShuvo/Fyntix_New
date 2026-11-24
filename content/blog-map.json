@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "route": "/feed/10-questions-to-ask-before-hiring-a-digital-product-agency",
+    "file": "content/blogs/01.md"
+  },
+  {
+    "id": 2,
+    "route": "/feed/10-things-to-get-right-with-ai-in-2027",
+    "file": "content/blogs/02.md"
+  },
+  {
+    "id": 3,
+    "route": "/feed/5-signs-you-need-a-digital-product-agency",
+    "file": "content/blogs/03.md"
+  },
+  {
+    "id": 4,
+    "route": "/feed/above-pioneering-ai-strategy-research-and-transformation-for-the-digital-era",
+    "file": "content/blogs/04.md"
+  },
+  {
+    "id": 5,
+    "route": "/feed/above-shaping-future-ready-brand-identity-in-london-through-strategy-creativity-and-ai",
+    "file": "content/blogs/05.md"
+  },
+  {
+    "id": 6,
+    "route": "/feed/above-welcomes-phil-miles-as-non-executive-chairperson",
+    "file": "content/blogs/06.md"
+  },
+  {
+    "id": 7,
+    "route": "/feed/agentic-ai-security-risks",
+    "file": "content/blogs/07.md"
+  },
+  {
+    "id": 8,
+    "route": "/feed/ai-agency-vs-in-house-build-buy-or-embed",
+    "file": "content/blogs/08.md"
+  },
+  {
+    "id": 9,
+    "route": "/feed/ai-doesnt-reward-activity-it-rewards-coherence",
+    "file": "content/blogs/09.md"
+  },
+  {
+    "id": 10,
+    "route": "/feed/ai-is-a-forcing-function-not-a-feature",
+    "file": "content/blogs/10.md"
+  },
+  {
+    "id": 11,
+    "route": "/feed/ai-pilot-to-production",
+    "file": "content/blogs/11.md"
+  },
+  {
+    "id": 12,
+    "route": "/feed/ai-property-management-owned-agents-vs-tool-licence",
+    "file": "content/blogs/12.md"
+  },
+  {
+    "id": 13,
+    "route": "/feed/ai-transformation-checklist-dont-miss-these-steps",
+    "file": "content/blogs/13.md"
+  },
+  {
+    "id": 14,
+    "route": "/feed/best-ai-agencies-for-scale-ups-2026",
+    "file": "content/blogs/14.md"
+  },
+  {
+    "id": 15,
+    "route": "/feed/best-ai-agencies-london-2026",
+    "file": "content/blogs/15.md"
+  },
+  {
+    "id": 16,
+    "route": "/feed/best-ai-automation-agencies-uk-2026",
+    "file": "content/blogs/16.md"
+  },
+  {
+    "id": 17,
+    "route": "/feed/best-ai-consultancies-mid-sized-uk-companies-2026",
+    "file": "content/blogs/17.md"
+  },
+  {
+    "id": 18,
+    "route": "/feed/best-ai-consulting-firms-london-uk-2026",
+    "file": "content/blogs/18.md"
+  },
+  {
+    "id": 19,
+    "route": "/feed/best-ai-product-design-agencies-in-london-2026",
+    "file": "content/blogs/19.md"
+  },
+  {
+    "id": 20,
+    "route": "/feed/best-digital-product-agencies-in-uk-2026-the-complete-guide",
+    "file": "content/blogs/20.md"
+  },
+  {
+    "id": 21,
+    "route": "/feed/building-ai-that-delivers-business-value-q-and-a-with-our-founder",
+    "file": "content/blogs/21.md"
+  },
+  {
+    "id": 22,
+    "route": "/feed/digital-product-trends-for-2025-what-agencies-should-watch",
+    "file": "content/blogs/22.md"
+  },
+  {
+    "id": 23,
+    "route": "/feed/embedded-ai-engineers-vs-traditional-consultancies",
+    "file": "content/blogs/23.md"
+  },
+  {
+    "id": 24,
+    "route": "/feed/forward-deployed-engineers-alone-wont-fix-ai-adoption",
+    "file": "content/blogs/24.md"
+  },
+  {
+    "id": 25,
+    "route": "/feed/hiring-an-ai-engineer-isnt-your-ai-strategy",
+    "file": "content/blogs/25.md"
+  },
+  {
+    "id": 26,
+    "route": "/feed/how-a-custom-software-development-agency-can-help-you-scale-faster",
+    "file": "content/blogs/26.md"
+  },
+  {
+    "id": 27,
+    "route": "/feed/how-above-delivers-enterprise-ai-at-startup-speed",
+    "file": "content/blogs/27.md"
+  },
+  {
+    "id": 28,
+    "route": "/feed/how-much-does-ai-product-development-cost",
+    "file": "content/blogs/28.md"
+  },
+  {
+    "id": 29,
+    "route": "/feed/how-to-choose-an-ai-agency-that-delivers-business-value",
+    "file": "content/blogs/29.md"
+  },
+  {
+    "id": 30,
+    "route": "/feed/how-to-choose-an-ai-agent-development-company",
+    "file": "content/blogs/30.md"
+  },
+  {
+    "id": 31,
+    "route": "/feed/how-to-choose-an-ai-consultancy",
+    "file": "content/blogs/31.md"
+  },
+  {
+    "id": 32,
+    "route": "/feed/how-to-evaluate-digital-product-agencies-for-ai-projects",
+    "file": "content/blogs/32.md"
+  },
+  {
+    "id": 33,
+    "route": "/feed/how-to-pick-the-right-digital-product-agency-in-london",
+    "file": "content/blogs/33.md"
+  },
+  {
+    "id": 34,
+    "route": "/feed/how-to-select-an-ai-product-agency-in-the-uk",
+    "file": "content/blogs/34.md"
+  },
+  {
+    "id": 35,
+    "route": "/feed/most-organisations-dont-have-an-ai-problem-they-have-an-innovation-problem",
+    "file": "content/blogs/35.md"
+  },
+  {
+    "id": 36,
+    "route": "/feed/native-agent-identity-isnt-the-finish-line",
+    "file": "content/blogs/36.md"
+  },
+  {
+    "id": 37,
+    "route": "/feed/onboarding-memory-capture-learnings",
+    "file": "content/blogs/37.md"
+  },
+  {
+    "id": 38,
+    "route": "/feed/react-native-for-your-mobile-app",
+    "file": "content/blogs/38.md"
+  },
+  {
+    "id": 39,
+    "route": "/feed/scaling-ai-prototypes-into-production",
+    "file": "content/blogs/39.md"
+  },
+  {
+    "id": 40,
+    "route": "/feed/start-2026-right-above-vs-deloitte-for-london-based-enterprise-ai-projects",
+    "file": "content/blogs/40.md"
+  },
+  {
+    "id": 41,
+    "route": "/feed/the-ai-payoff-starts-with-the-problems-youve-been-avoiding",
+    "file": "content/blogs/41.md"
+  },
+  {
+    "id": 42,
+    "route": "/feed/the-fastest-way-to-waste-money-on-ai",
+    "file": "content/blogs/42.md"
+  },
+  {
+    "id": 43,
+    "route": "/feed/the-future-of-digital-product-development",
+    "file": "content/blogs/43.md"
+  },
+  {
+    "id": 44,
+    "route": "/feed/the-illusion-of-ai-productivity-why-more-output-hasnt-meant-less-work",
+    "file": "content/blogs/44.md"
+  },
+  {
+    "id": 45,
+    "route": "/feed/the-race-to-become-your-single-interface",
+    "file": "content/blogs/45.md"
+  },
+  {
+    "id": 46,
+    "route": "/feed/the-role-of-a-digital-product-agency-in-start-up-success",
+    "file": "content/blogs/46.md"
+  },
+  {
+    "id": 47,
+    "route": "/feed/top-5-saas-development-agencies-in-london",
+    "file": "content/blogs/47.md"
+  },
+  {
+    "id": 48,
+    "route": "/feed/top-ai-agent-development-companies-in-the-uk-2026",
+    "file": "content/blogs/48.md"
+  },
+  {
+    "id": 49,
+    "route": "/feed/top-ai-development-companies-in-the-uk-2026",
+    "file": "content/blogs/49.md"
+  },
+  {
+    "id": 50,
+    "route": "/feed/top-ai-product-agencies-for-enterprises-2026",
+    "file": "content/blogs/50.md"
+  },
+  {
+    "id": 51,
+    "route": "/feed/vue-vs-react",
+    "file": "content/blogs/51.md"
+  },
+  {
+    "id": 52,
+    "route": "/feed/what-is-a-digital-product-agency",
+    "file": "content/blogs/52.md"
+  },
+  {
+    "id": 53,
+    "route": "/feed/what-is-a-forward-deployed-engineer",
+    "file": "content/blogs/53.md"
+  },
+  {
+    "id": 54,
+    "route": "/feed/what-revoluts-design-system-taught-us-about-shipping-fast",
+    "file": "content/blogs/54.md"
+  },
+  {
+    "id": 55,
+    "route": "/feed/why-ux-ui-design-is-crucial-for-digital-product-success",
+    "file": "content/blogs/55.md"
+  },
+  {
+    "id": 56,
+    "route": "/feed/your-ai-is-only-as-good-as-the-knowledge-it-can-retrieve",
+    "file": "content/blogs/56.md"
+  },
+  {
+    "id": 57,
+    "route": "/feed/your-ai-pilot-worked-now-who-owns-it",
+    "file": "content/blogs/57.md"
+  },
+  {
+    "id": 58,
+    "route": "/feed/your-ai-rollout-needs-better-behaviour-design",
+    "file": "content/blogs/58.md"
+  }
+]

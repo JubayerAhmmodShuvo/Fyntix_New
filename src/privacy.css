@@ -1,0 +1,40 @@
+.fyntix-cookie-banner, .fyntix-cookie-dialog { color: #252525; font-family: "Inter Display", sans-serif; font-size: 1rem; line-height: 1.5; background: #fff; border: 1px solid #e4e4e4; border-radius: 24px; box-shadow: 0 18px 60px rgb(0 0 0 / 14%); }
+.fyntix-cookie-banner { pointer-events: auto; position: fixed; z-index: 1000; bottom: 24px; left: 50%; transform: translateX(-50%); width: min(1100px, calc(100% - 32px)); padding: 24px; display: flex; align-items: center; gap: 28px; }
+.fyntix-cookie-copy { flex: 1; min-width: 0; }
+.fyntix-cookie-banner h2 { font-size: 1.2rem; font-weight: 500; margin: 0 0 6px; }
+.fyntix-cookie-banner p, .fyntix-cookie-dialog p { margin: 0; }
+.fyntix-cookie-banner a, .fyntix-cookie-dialog a, .fyntix-media-placeholder a { text-decoration: underline; text-underline-offset: .2em; }
+.fyntix-cookie-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.fyntix-cookie-actions button { flex-shrink: 0; }
+.fyntix-cookie-dialog { pointer-events: auto; width: min(650px, calc(100% - 32px)); max-height: calc(100dvh - 48px); margin: auto; padding: 28px; overflow-y: auto; overscroll-behavior: contain; }
+.fyntix-cookie-dialog::backdrop { background: rgb(0 0 0 / 55%); backdrop-filter: blur(4px); }
+.fyntix-cookie-dialog > * + * { margin-top: 22px; }
+.fyntix-cookie-dialog-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.fyntix-privacy-eyebrow { color: #e74f35; font-size: .875rem; }
+.fyntix-cookie-dialog-heading h2 { margin: 4px 0 0; font-size: 2rem; font-weight: 400; line-height: 1.1; letter-spacing: -.035em; }
+.fyntix-cookie-category { padding: 18px; border: 1px solid #dedede; border-radius: 14px; }
+.fyntix-cookie-category label { display: flex; align-items: center; gap: 12px; font-weight: 500; cursor: pointer; }
+.fyntix-cookie-category input { appearance: auto; width: 22px; height: 22px; min-width: 22px; margin: 0; accent-color: #171717; }
+.fyntix-cookie-category small { display: block; color: #555; font-size: .875rem; font-weight: 400; }
+.fyntix-cookie-category p { margin-top: 10px; }
+.fyntix-cookie-dialog :focus-visible, .fyntix-cookie-banner :focus-visible { outline: 3px solid #f75d3b; outline-offset: 4px; }
+.fyntix-media-placeholder { height: 100%; padding: 32px; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; gap: 16px; color: #fff; }
+.fyntix-media-placeholder p { max-width: 44ch; font-size: 1rem; line-height: 1.5; }
+.fyntix-legal-shell { padding: 12rem 24px 7rem; background: #f7f7f7; }
+.fyntix-legal { width: min(100%, 820px); margin-inline: auto; color: #282828; }
+.fyntix-legal h1 { font-size: clamp(2.6rem, 5vw, 4.5rem); line-height: 1.05; letter-spacing: -.045em; font-weight: 400; margin: 12px 0 28px; }
+.fyntix-legal h2 { margin: 42px 0 14px; font-weight: 400; font-size: 1.65rem; line-height: 1.15; letter-spacing: -.025em; }
+.fyntix-legal p, .fyntix-legal li { font-size: 1.1rem; line-height: 1.65; }
+.fyntix-legal p { margin: 0 0 16px; }
+.fyntix-legal ul { padding-left: 24px; list-style: disc; margin: 16px 0; }
+.fyntix-legal li + li { margin-top: 8px; }
+.fyntix-legal a { text-decoration: underline; text-underline-offset: .2em; }
+.fyntix-legal nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 28px 0; }
+.fyntix-legal .fyntix-legal-date { font-size: 1rem; color: #595959; }
+.fyntix-legal address { font-size: 1.1rem; line-height: 1.65; font-style: normal; }
+.fyntix-legal-table { overflow-x: auto; margin-block: 24px; }
+.fyntix-legal table { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.fyntix-legal th, .fyntix-legal td { padding: 14px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+.fyntix-legal th { font-weight: 500; }
+@media (max-width: 1000px) { .fyntix-cookie-banner { flex-direction: column; align-items: stretch; gap: 18px; } }
+@media (max-width: 767px) { .fyntix-cookie-banner { bottom: 16px; padding: 20px; max-height: calc(100dvh - 32px); overflow-y: auto; } .fyntix-cookie-dialog { padding: 22px; } .fyntix-cookie-actions { gap: 10px; } .fyntix-cookie-actions button { flex: 1 1 auto; } .fyntix-legal-shell { padding: 4rem 22px 5rem; } .fyntix-media-placeholder { padding: 18px; gap: 10px; } }

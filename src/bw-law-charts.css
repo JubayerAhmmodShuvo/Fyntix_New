@@ -1,0 +1,91 @@
+/* Shared case-study dashboards use the homepage's Inter/serif pairing and soft cards. */
+.bw-dashboard {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  color: #111;
+  font-family: "Inter Display", sans-serif;
+}
+
+.bw-dashboard *, .bw-dashboard *::before, .bw-dashboard *::after { box-sizing: border-box; }
+.bw-dashboard-header { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 24px; }
+.bw-dashboard-heading { margin: 0; font-size: 20px; font-weight: 500; line-height: 1.3; letter-spacing: -.02em; }
+.bw-dashboard-period { margin: 6px 0 0; font-size: 16px; line-height: 1.5; color: #6f6f6f; }
+.bw-dashboard-replay { flex: none; padding: 11px 20px; border: 1px solid #dce0e1; border-radius: 999px; background: #fff; color: #111; font-family: inherit; font-size: 16px; line-height: 1.3; cursor: pointer; transition: background .18s ease; }
+.bw-dashboard-replay:hover { background: #ededed; }
+.bw-dashboard-replay:focus-visible { outline: 2px solid #f75d3b; outline-offset: 4px; }
+.bw-dashboard-replay[hidden] { display: none; }
+.bw-dashboard-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 20px; }
+.bw-dashboard-card { min-width: 0; border-radius: 24px; padding: 32px; overflow: hidden; }
+.bw-dashboard-card h3 { margin: 0; font-size: 20px; font-weight: 500; line-height: 1.3; letter-spacing: -.02em; }
+.bw-dashboard-card p { margin: 0; }
+.bw-traffic-card { grid-column: span 8; display: flex; flex-direction: column; background: #1e1e1e; color: #fff; }
+.bw-maps-card { grid-column: span 4; display: flex; flex-direction: column; background: linear-gradient(155deg, #fce6d4, #fff8f2); }
+.bw-keywords-card { grid-column: span 8; background: linear-gradient(155deg, #e1f0e7, #f7fbf8); }
+.bw-authority-card { grid-column: span 4; display: flex; flex-direction: column; background: linear-gradient(155deg, #deecf5, #f7fafd); }
+.bw-figure { margin: 20px 0 8px !important; font-size: 64px; font-weight: 500; line-height: 1; letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
+.bw-traffic-figure { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 14px; }
+.bw-figure em { font-family: "Instrument Serif", serif; font-size: 68px; font-style: italic; font-weight: 400; letter-spacing: -.02em; }
+.bw-card-description { font-size: 16px; line-height: 1.5; color: #6f6f6f; }
+.bw-traffic-card .bw-card-description { color: #bdbdbd; }
+.bw-traffic-plot { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 30px 0 0; }
+.bw-plot-column { min-width: 0; text-align: center; }
+.bw-plot-track { display: flex; align-items: flex-end; justify-content: center; height: 182px; border-bottom: 1px solid #ffffff26; background: repeating-linear-gradient(to top, transparent 0, transparent 44px, #ffffff0d 44px, #ffffff0d 45px); }
+.bw-plot-bar { width: min(100%, 116px); border-radius: 14px 14px 0 0; }
+.bw-plot-bar--before { height: 6px; background: #6f6f6f; }
+.bw-plot-bar--after { height: 164px; background: linear-gradient(180deg, #ff8b6e, #f75d3b); }
+.bw-plot-value { margin-top: 12px !important; font-size: 18px; font-weight: 500; line-height: 1.3; letter-spacing: -.02em; }
+.bw-plot-label { margin-top: 5px !important; font-size: 16px; line-height: 1.4; color: #bdbdbd; }
+.bw-rank-comparison { display: grid; gap: 20px; margin: 28px 0 22px; }
+.bw-rank-row { display: grid; gap: 8px; }
+.bw-rank-label { display: flex; justify-content: space-between; gap: 12px; font-size: 16px; line-height: 1.4; }
+.bw-rank-label strong { font-weight: 500; font-variant-numeric: tabular-nums; }
+.bw-rank-track { height: 13px; border-radius: 999px; background: #1111110a; overflow: hidden; }
+.bw-rank-bar { height: 100%; border-radius: inherit; }
+.bw-rank-bar--before { width: 84%; background: #b2a399; }
+.bw-rank-bar--after { width: 25%; background: #f75d3b; }
+.bw-rank-note { margin-top: auto !important; font-family: "Instrument Serif", serif; font-style: italic; font-size: 24px; font-weight: 400; line-height: 1.2; letter-spacing: -.01em; }
+.bw-keywords-content { display: flex; align-items: center; gap: 28px; margin-top: 20px; }
+.bw-keyword-ring { display: block; width: 144px; height: 144px; flex: none; overflow: visible; }
+.bw-ring-background { stroke: #c8dfd1; }
+.bw-ring-progress { stroke: #141414; stroke-linecap: round; }
+.bw-ring-label { fill: #141414; font-family: "Inter Display", sans-serif; font-size: 24px; font-weight: 500; letter-spacing: -.02em; }
+.bw-keyword-details { min-width: 0; }
+.bw-keyword-details .bw-figure { margin-top: 0 !important; }
+.bw-keyword-total { margin-top: 12px !important; font-size: 16px; line-height: 1.5; color: #6f6f6f; font-variant-numeric: tabular-nums; }
+.bw-authority-card .bw-figure { margin-top: 28px !important; }
+.bw-authority-note { margin-top: 20px !important; font-size: 16px; line-height: 1.5; color: #6f6f6f; }
+.bw-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.bw-plot-bar--smartrent-before { height: 109.333px; }
+.bw-leads-card .bw-figure { margin-top: 28px !important; }
+
+@media (max-width: 1199.98px) {
+  .bw-dashboard-card { padding: 26px; }
+  .bw-figure { font-size: 56px; }
+  .bw-figure em { font-size: 60px; }
+}
+
+@media (max-width: 809.98px) {
+  .bw-dashboard-header { align-items: flex-start; gap: 12px; }
+  .bw-dashboard-heading { font-size: 18px; }
+  .bw-dashboard-replay { padding: 10px 16px; }
+  .bw-dashboard-grid { gap: 16px; }
+  .bw-dashboard-card { grid-column: 1 / -1; padding: 24px; }
+  .bw-maps-card .bw-rank-note { margin-top: 0 !important; }
+}
+
+@media (max-width: 479.98px) {
+  .bw-dashboard-card { padding: 20px; border-radius: 20px; }
+  .bw-figure { font-size: 48px; }
+  .bw-figure em { font-size: 52px; }
+  .bw-traffic-plot { gap: 16px; }
+  .bw-plot-track { height: 150px; }
+  .bw-plot-bar--after { height: 138px; }
+  .bw-plot-bar--smartrent-before { height: 92px; }
+  .bw-keywords-content { gap: 18px; }
+  .bw-keyword-ring { width: 112px; height: 112px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bw-dashboard-replay { display: none; }
+}

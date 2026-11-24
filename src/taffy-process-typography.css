@@ -1,0 +1,596 @@
+/* Original Taffy text presets, scoped to the process section.
+   Keep selectors with :not(.rich-text-wrapper): these target the copied text nodes. */
+
+#section-process a.framer-text:where(:not(.framer-image)):hover {
+  font-family: var(--framer-font-family-preview,var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-blockquote-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))));
+  font-style: var(--framer-font-style-preview,var(--framer-link-hover-font-style,var(--framer-link-font-style,var(--framer-blockquote-font-style,var(--framer-font-style,normal)))));
+  font-weight: var(--framer-font-weight-preview,var(--framer-link-hover-font-weight,var(--framer-link-font-weight,var(--framer-blockquote-font-weight,var(--framer-font-weight,400)))));
+  font-size: calc(var(--framer-link-hover-font-size,var(--framer-blockquote-font-size,var(--framer-font-size,16px))) * var(--framer-font-size-scale,1));
+  text-transform: var(--framer-link-hover-text-transform,var(--framer-link-text-transform,var(--framer-blockquote-text-transform,var(--framer-text-transform,none))));
+  border-radius: var(--framer-link-hover-text-background-radius,var(--framer-link-text-background-radius,var(--framer-text-background-radius,initial)));
+  corner-shape: var(--framer-link-hover-text-background-corner-shape,var(--framer-link-text-background-corner-shape,var(--framer-text-background-corner-shape,initial)));
+  padding: var(--framer-link-hover-text-background-padding,var(--framer-link-text-background-padding,var(--framer-text-background-padding,initial)));
+}
+
+#section-process a.framer-text:where(:not(.framer-image))[data-framer-page-link-current] {
+  font-family: var(--framer-font-family-preview,var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))));
+  font-style: var(--framer-font-style-preview,var(--framer-link-current-font-style,var(--framer-link-font-style,var(--framer-font-style,normal))));
+  font-weight: var(--framer-font-weight-preview,var(--framer-link-current-font-weight,var(--framer-link-font-weight,var(--framer-font-weight,400))));
+  font-size: calc(var(--framer-link-current-font-size,var(--framer-link-font-size,var(--framer-font-size,16px))) * var(--framer-font-size-scale,1));
+  text-transform: var(--framer-link-current-text-transform,var(--framer-link-text-transform,var(--framer-text-transform,none)));
+  border-radius: var(--framer-link-current-text-background-radius,var(--framer-link-text-background-radius,initial));
+  corner-shape: var(--framer-link-current-text-background-corner-shape,var(--framer-link-text-background-corner-shape,initial));
+  padding: var(--framer-link-current-text-background-padding,var(--framer-link-text-background-padding,initial));
+}
+
+#section-process a.framer-text:where(:not(.framer-image))[data-framer-page-link-current]:hover {
+  color: inherit;
+  font-family: var(--framer-font-family-preview,var(--framer-link-hover-font-family,var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))));
+  font-style: var(--framer-font-style-preview,var(--framer-link-hover-font-style,var(--framer-link-current-font-style,var(--framer-link-font-style,var(--framer-font-style,normal)))));
+  font-weight: var(--framer-font-weight-preview,var(--framer-link-hover-font-weight,var(--framer-link-current-font-weight,var(--framer-link-font-weight,var(--framer-font-weight,400)))));
+  font-size: calc(var(--framer-link-hover-font-size,var(--framer-link-current-font-size,var(--framer-link-font-size,var(--framer-font-size,16px)))) * var(--framer-font-size-scale,1));
+  text-transform: var(--framer-link-hover-text-transform,var(--framer-link-current-text-transform,var(--framer-link-text-transform,var(--framer-text-transform,none))));
+  border-radius: var(--framer-link-hover-text-background-radius,var(--framer-link-current-text-background-radius,var(--framer-link-text-background-radius,initial)));
+  corner-shape: var(--framer-link-hover-text-background-corner-shape,var(--framer-link-current-text-background-corner-shape,var(--framer-link-text-background-corner-shape,initial)));
+  padding: var(--framer-link-hover-text-background-padding,var(--framer-link-current-text-background-padding,var(--framer-link-text-background-padding,initial)));
+}
+
+@media (max-width:1199px) and (min-width:810px) {
+  #section-process .framer-nHcn5 .framer-styles-preset-652i5q:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 18px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 400;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.55em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-eMADdYRYt);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+@media (max-width:809px) and (min-width:0) {
+  #section-process .framer-nHcn5 .framer-styles-preset-652i5q:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 16px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 400;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.55em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-eMADdYRYt);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+@media (max-width:1199px) and (min-width:810px) {
+  #section-process .framer-D7Rw7 .framer-styles-preset-74lx4y:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 22px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 500;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: -.025em;
+    --framer-line-height: 1.2em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-exOiix4sp);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+@media (max-width:809px) and (min-width:0) {
+  #section-process .framer-D7Rw7 .framer-styles-preset-74lx4y:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 20px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 500;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: -.025em;
+    --framer-line-height: 1.2em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-exOiix4sp);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+#section-process .framer-HZDwe .framer-styles-preset-12duov8:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 13px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: 0em;
+  --framer-line-height: 1.4em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+#section-process .framer-67ldG .framer-styles-preset-1j5l7gu:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 14px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: 0em;
+  --framer-line-height: 1.4em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+#section-process .framer-nHcn5 .framer-styles-preset-652i5q:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 18px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 400;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: 0em;
+  --framer-line-height: 1.55em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-eMADdYRYt);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+@media (max-width:1199px) and (min-width:810px) {
+  #section-process .framer-nHcn5 .framer-styles-preset-652i5q:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 18px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 400;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.55em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-eMADdYRYt);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+@media (max-width:809px) and (min-width:0) {
+  #section-process .framer-nHcn5 .framer-styles-preset-652i5q:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 16px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 400;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.55em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-eMADdYRYt);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+#section-process .framer-g3Gao .framer-styles-preset-xitz3z:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 12px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: 0em;
+  --framer-line-height: 1.3em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+#section-process .framer-QYr9M .framer-styles-preset-1sanh97:not(.rich-text-wrapper) {
+  --framer-font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 20px;
+  --framer-font-style: italic;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 400;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: -.01em;
+  --framer-line-height: 1.2em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+#section-process .framer-mPNm2 .framer-styles-preset-1v0a13p:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 15px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 400;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: 0em;
+  --framer-line-height: 1.55em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-eMADdYRYt);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+#section-process .framer-u5Psn .framer-styles-preset-1i96fzx:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 15px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: -.01em;
+  --framer-line-height: 1.3em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+#section-process .framer-D7Rw7 .framer-styles-preset-74lx4y:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 24px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: -.025em;
+  --framer-line-height: 1.2em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+@media (max-width:1199px) and (min-width:810px) {
+  #section-process .framer-D7Rw7 .framer-styles-preset-74lx4y:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 22px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 500;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: -.025em;
+    --framer-line-height: 1.2em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-exOiix4sp);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+@media (max-width:809px) and (min-width:0) {
+  #section-process .framer-D7Rw7 .framer-styles-preset-74lx4y:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 20px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 500;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: -.025em;
+    --framer-line-height: 1.2em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-exOiix4sp);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+#section-process .framer-BCPNS .framer-styles-preset-1uj69ec:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 44px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: -.045em;
+  --framer-line-height: 1em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}
+
+@media (max-width:1199px) and (min-width:810px) {
+  #section-process .framer-BCPNS .framer-styles-preset-1uj69ec:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 40px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 500;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: -.045em;
+    --framer-line-height: 1em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-exOiix4sp);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+@media (max-width:809px) and (min-width:0) {
+  #section-process .framer-BCPNS .framer-styles-preset-1uj69ec:not(.rich-text-wrapper) {
+    --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-open-type-features: normal;
+    --framer-font-size: 36px;
+    --framer-font-style: normal;
+    --framer-font-style-bold: normal;
+    --framer-font-style-bold-italic: italic;
+    --framer-font-style-italic: italic;
+    --framer-font-variation-axes: normal;
+    --framer-font-weight: 500;
+    --framer-font-weight-bold: 700;
+    --framer-font-weight-bold-italic: 700;
+    --framer-font-weight-italic: 400;
+    --framer-letter-spacing: -.045em;
+    --framer-line-height: 1em;
+    --framer-paragraph-spacing: 20px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-exOiix4sp);
+    --framer-text-decoration: none;
+    --framer-text-stroke-color: initial;
+    --framer-text-stroke-width: initial;
+    --framer-text-transform: none;
+  }
+}
+
+#section-process .framer-exCe9 .framer-styles-preset-1x395t1:not(.rich-text-wrapper) {
+  --framer-font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  --framer-font-open-type-features: normal;
+  --framer-font-size: 15px;
+  --framer-font-style: normal;
+  --framer-font-style-bold: normal;
+  --framer-font-style-bold-italic: italic;
+  --framer-font-style-italic: italic;
+  --framer-font-variation-axes: normal;
+  --framer-font-weight: 500;
+  --framer-font-weight-bold: 700;
+  --framer-font-weight-bold-italic: 700;
+  --framer-font-weight-italic: 400;
+  --framer-letter-spacing: -.01em;
+  --framer-line-height: 1em;
+  --framer-paragraph-spacing: 20px;
+  --framer-text-alignment: start;
+  --framer-text-color: var(--token-exOiix4sp);
+  --framer-text-decoration: none;
+  --framer-text-stroke-color: initial;
+  --framer-text-stroke-width: initial;
+  --framer-text-transform: none;
+}

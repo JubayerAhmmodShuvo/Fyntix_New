@@ -1,0 +1,564 @@
+{
+  "/": {
+    "title": "Fyntix | SEO, AI Search Visibility & Paid Media",
+    "description": "Grow with Fyntix. We connect SEO and AI search visibility with Google, Meta and TikTok Ads, useful content and measurable business growth.",
+    "file": "/page-data/home.json",
+    "modified": "2026-11-24"
+  },
+  "/about": {
+    "title": "About Fyntix | Business Growth Agency",
+    "description": "Meet Fyntix: a business growth agency connecting search and AI visibility, paid advertising and content strategy to help customers find and choose you.",
+    "file": "/page-data/about.json",
+    "modified": "2026-11-24"
+  },
+  "/agent-mesh": {
+    "title": "Agent Mesh | Fyntix Archive",
+    "description": "Archived offering. Explore Fyntix’s current services in SEO and AI search visibility, paid advertising, content strategy and business growth.",
+    "file": "/page-data/agent-mesh.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/agent-run-websites": {
+    "title": "Agent-run Websites | Fyntix Archive",
+    "description": "Archived offering. See Fyntix’s current Search & AI Visibility and Paid Media & Content services for attracting and converting customers.",
+    "file": "/page-data/agent-run-websites.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/brand": {
+    "title": "Brand Resources | Fyntix Archive",
+    "description": "Archived brand and media resources. For current Fyntix business details, service information or media enquiries, contact info@fyntix.com.",
+    "file": "/page-data/brand.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/careers": {
+    "title": "Careers at Fyntix | Search, Ads & Content",
+    "description": "Bring your search, paid media or content expertise to Fyntix. Help businesses improve visibility, attract relevant enquiries and measure growth.",
+    "file": "/page-data/careers.json",
+    "modified": "2026-11-24"
+  },
+  "/compare": {
+    "title": "Previous Comparisons | Fyntix Archive",
+    "description": "Archived comparisons from an earlier site. Discover Fyntix’s current services in search visibility, paid advertising, content and business growth.",
+    "file": "/page-data/compare.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/compare/andabove-vs-faculty-ai": {
+    "title": "Previous Agency Comparison | Fyntix Archive",
+    "description": "Archived comparison. Fyntix’s current focus is SEO, AI search visibility, Google, Meta and TikTok Ads, content strategy and growth reporting.",
+    "file": "/page-data/compare__andabove-vs-faculty-ai.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/contact": {
+    "title": "Contact Fyntix | Plan Your Business Growth",
+    "description": "Talk to Fyntix about SEO, AI search visibility, Google, Meta and TikTok Ads, content and growth strategy. Email info@fyntix.com.",
+    "file": "/page-data/contact.json",
+    "modified": "2026-11-24"
+  },
+  "/data-protection": {
+    "title": "Client Data & Account Access | Fyntix",
+    "description": "How to agree account access and data responsibilities for Fyntix SEO, AI search visibility, paid media, content and reporting engagements.",
+    "file": "/page-data/data-protection.json",
+    "modified": "2026-11-24"
+  },
+  "/feed": {
+    "title": "Blogs | Fyntix",
+    "description": "Practical Fyntix guides to SEO, AI search visibility, Google Ads, Meta and TikTok campaigns, content strategy and growth reporting.",
+    "file": "/page-data/feed.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/10-questions-to-ask-before-hiring-a-digital-product-agency": {
+    "title": "10 questions to ask a growth agency | Fyntix",
+    "description": "Ten questions that reveal how an agency connects search, paid media and content with the customers your business needs.",
+    "file": "/page-data/feed__10-questions-to-ask-before-hiring-a-digital-product-agency.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/10-things-to-get-right-with-ai-in-2027": {
+    "title": "A practical growth plan for search, ads and content | Fyntix",
+    "description": "Build a practical plan that connects customer demand, useful content, paid campaigns and a clear way to measure progress.",
+    "file": "/page-data/feed__10-things-to-get-right-with-ai-in-2027.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/5-signs-you-need-a-digital-product-agency": {
+    "title": "5 signs your business needs a connected growth strategy | Fyntix",
+    "description": "Recognise the gaps between visibility, campaigns and enquiries that suggest your marketing needs a more connected plan.",
+    "file": "/page-data/feed__5-signs-you-need-a-digital-product-agency.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/above-pioneering-ai-strategy-research-and-transformation-for-the-digital-era": {
+    "title": "How to turn a growth audit into a 90-day plan | Fyntix",
+    "description": "Turn an audit into a focused sequence of search, advertising and content improvements that a team can actually deliver.",
+    "file": "/page-data/feed__above-pioneering-ai-strategy-research-and-transformation-for-the-digital-era.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/above-shaping-future-ready-brand-identity-in-london-through-strategy-creativity-and-ai": {
+    "title": "Make your business easier to understand across every channel | Fyntix",
+    "description": "Keep your offer, evidence and business information clear wherever customers encounter you, from search pages to paid campaigns.",
+    "file": "/page-data/feed__above-shaping-future-ready-brand-identity-in-london-through-strategy-creativity-and-ai.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/above-welcomes-phil-miles-as-non-executive-chairperson": {
+    "title": "Who should own your marketing decisions? | Fyntix",
+    "description": "Define who approves the offer, who owns the channels and who turns sales feedback into the next marketing decision.",
+    "file": "/page-data/feed__above-welcomes-phil-miles-as-non-executive-chairperson.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/agentic-ai-security-risks": {
+    "title": "Protect the quality of your marketing data | Fyntix",
+    "description": "Make campaign data useful by agreeing event definitions, checking the customer journey and keeping changes documented.",
+    "file": "/page-data/feed__agentic-ai-security-risks.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/ai-agency-vs-in-house-build-buy-or-embed": {
+    "title": "Growth agency or in-house team: choosing the right mix | Fyntix",
+    "description": "Decide which marketing responsibilities belong inside your business and where specialist agency support can add useful capacity.",
+    "file": "/page-data/feed__ai-agency-vs-in-house-build-buy-or-embed.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/ai-doesnt-reward-activity-it-rewards-coherence": {
+    "title": "Connect your search, ads and content around one offer | Fyntix",
+    "description": "Give SEO, advertisements and content a shared offer so each part of the customer journey reinforces the next.",
+    "file": "/page-data/feed__ai-doesnt-reward-activity-it-rewards-coherence.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/ai-is-a-forcing-function-not-a-feature": {
+    "title": "Make your offer the starting point for paid campaigns | Fyntix",
+    "description": "Clarify the customer, the promise and the next step before choosing campaign settings or commissioning advertisements.",
+    "file": "/page-data/feed__ai-is-a-forcing-function-not-a-feature.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/ai-pilot-to-production": {
+    "title": "Turn an SEO audit into improvements that ship | Fyntix",
+    "description": "Prioritise the findings of an SEO audit, assign implementation owners and verify that the important improvements reach the live site.",
+    "file": "/page-data/feed__ai-pilot-to-production.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/ai-property-management-owned-agents-vs-tool-licence": {
+    "title": "Local SEO for property management businesses | Fyntix",
+    "description": "Plan local pages, useful owner information and enquiry reporting around the markets a property management business actually serves.",
+    "file": "/page-data/feed__ai-property-management-owned-agents-vs-tool-licence.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/ai-transformation-checklist-dont-miss-these-steps": {
+    "title": "A practical SEO checklist before you publish | Fyntix",
+    "description": "Review the purpose, structure, links and next step of an important page before adding it to your website.",
+    "file": "/page-data/feed__ai-transformation-checklist-dont-miss-these-steps.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-ai-agencies-for-scale-ups-2026": {
+    "title": "How to choose a growth partner when your business is scaling | Fyntix",
+    "description": "Choose a growth partner that can support a changing offer, delivery capacity and reporting needs as your business expands.",
+    "file": "/page-data/feed__best-ai-agencies-for-scale-ups-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-ai-agencies-london-2026": {
+    "title": "How to compare SEO agencies without a top-ten list | Fyntix",
+    "description": "Compare SEO partners through their diagnosis, priorities and reporting approach instead of relying on generic agency rankings.",
+    "file": "/page-data/feed__best-ai-agencies-london-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-ai-automation-agencies-uk-2026": {
+    "title": "What a paid media agency should report every month | Fyntix",
+    "description": "A monthly paid media report should explain spending, meaningful responses, lead quality and the decisions that follow.",
+    "file": "/page-data/feed__best-ai-automation-agencies-uk-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-ai-consultancies-mid-sized-uk-companies-2026": {
+    "title": "A marketing plan for businesses with a small internal team | Fyntix",
+    "description": "Give a small internal team a manageable marketing plan with clear priorities, approval routes and specialist support where needed.",
+    "file": "/page-data/feed__best-ai-consultancies-mid-sized-uk-companies-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-ai-consulting-firms-london-uk-2026": {
+    "title": "What to include in a search and AI visibility brief | Fyntix",
+    "description": "Brief AI visibility work with a defined audience, useful customer questions, accurate business information and realistic observation methods.",
+    "file": "/page-data/feed__best-ai-consulting-firms-london-uk-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-ai-product-design-agencies-in-london-2026": {
+    "title": "Landing pages that help ad visitors take the next step | Fyntix",
+    "description": "Connect the advertisement, the page and the enquiry route so a suitable visitor can understand the offer and act with confidence.",
+    "file": "/page-data/feed__best-ai-product-design-agencies-in-london-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/best-digital-product-agencies-in-uk-2026-the-complete-guide": {
+    "title": "What a business growth agency should actually deliver | Fyntix",
+    "description": "Evaluate a growth programme through its diagnosis, delivery plan, account ownership and ability to improve decisions over time.",
+    "file": "/page-data/feed__best-digital-product-agencies-in-uk-2026-the-complete-guide.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/building-ai-that-delivers-business-value-q-and-a-with-our-founder": {
+    "title": "Questions to answer before investing in AI search visibility | Fyntix",
+    "description": "Ask what customers need, where your information is weak and how observations of AI answers will connect with useful business measures.",
+    "file": "/page-data/feed__building-ai-that-delivers-business-value-q-and-a-with-our-founder.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/digital-product-trends-for-2025-what-agencies-should-watch": {
+    "title": "Build a content plan around decisions your customers make | Fyntix",
+    "description": "Build an editorial plan around the questions people ask before choosing a service, rather than a list of broad industry topics.",
+    "file": "/page-data/feed__digital-product-trends-for-2025-what-agencies-should-watch.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/embedded-ai-engineers-vs-traditional-consultancies": {
+    "title": "How an agency and your sales team should work together | Fyntix",
+    "description": "Create a simple feedback loop between marketing delivery and the people who understand which enquiries become suitable customers.",
+    "file": "/page-data/feed__embedded-ai-engineers-vs-traditional-consultancies.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/forward-deployed-engineers-alone-wont-fix-ai-adoption": {
+    "title": "Why more ad leads can still mean fewer sales | Fyntix",
+    "description": "Read lead volume alongside qualification and sales progression so cheaper enquiries do not hide a weaker business result.",
+    "file": "/page-data/feed__forward-deployed-engineers-alone-wont-fix-ai-adoption.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/hiring-an-ai-engineer-isnt-your-ai-strategy": {
+    "title": "Hire a specialist or fix the marketing plan first? | Fyntix",
+    "description": "Diagnose the missing decision or capability before hiring another marketing specialist or adding an agency workstream.",
+    "file": "/page-data/feed__hiring-an-ai-engineer-isnt-your-ai-strategy.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-a-custom-software-development-agency-can-help-you-scale-faster": {
+    "title": "How to scale paid campaigns without losing lead quality | Fyntix",
+    "description": "Expand paid campaigns with clear customer-fit criteria, a dependable enquiry process and separate reporting for new tests.",
+    "file": "/page-data/feed__how-a-custom-software-development-agency-can-help-you-scale-faster.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-above-delivers-enterprise-ai-at-startup-speed": {
+    "title": "How Fyntix connects search, paid media and content | Fyntix",
+    "description": "See how Fyntix's two service groups connect customer discovery, useful explanations, paid campaigns and meaningful reporting.",
+    "file": "/page-data/feed__how-above-delivers-enterprise-ai-at-startup-speed.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-much-does-ai-product-development-cost": {
+    "title": "How to set a paid media test budget | Fyntix",
+    "description": "Define the question, audience and meaningful response before deciding how much a paid media test can sensibly investigate.",
+    "file": "/page-data/feed__how-much-does-ai-product-development-cost.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-to-choose-an-ai-agency-that-delivers-business-value": {
+    "title": "How to choose an agency around business outcomes | Fyntix",
+    "description": "Compare agency proposals through the customer outcome, implementation plan and evidence that will guide the working relationship.",
+    "file": "/page-data/feed__how-to-choose-an-ai-agency-that-delivers-business-value.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-to-choose-an-ai-agent-development-company": {
+    "title": "How to review a Google Ads management proposal | Fyntix",
+    "description": "Review a Google Ads proposal for audience intent, conversion definitions, account ownership and the work needed after the click.",
+    "file": "/page-data/feed__how-to-choose-an-ai-agent-development-company.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-to-choose-an-ai-consultancy": {
+    "title": "How to choose an AI search visibility partner | Fyntix",
+    "description": "Assess an AI visibility partner through its research method, content judgement and ability to explain what the observations can establish.",
+    "file": "/page-data/feed__how-to-choose-an-ai-consultancy.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-to-evaluate-digital-product-agencies-for-ai-projects": {
+    "title": "How to assess a technical SEO audit | Fyntix",
+    "description": "Judge a technical SEO audit by its evidence, page-level context, implementation detail and method for verifying changes.",
+    "file": "/page-data/feed__how-to-evaluate-digital-product-agencies-for-ai-projects.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-to-pick-the-right-digital-product-agency-in-london": {
+    "title": "Choosing a local growth agency: fit before location | Fyntix",
+    "description": "Compare local growth agencies through customer understanding, delivery arrangements and communication that fits your business.",
+    "file": "/page-data/feed__how-to-pick-the-right-digital-product-agency-in-london.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/how-to-select-an-ai-product-agency-in-the-uk": {
+    "title": "What to ask before hiring a Meta Ads agency | Fyntix",
+    "description": "Review a Meta Ads agency's approach to the offer, creative development, enquiry quality and measurement before choosing a partner.",
+    "file": "/page-data/feed__how-to-select-an-ai-product-agency-in-the-uk.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/most-organisations-dont-have-an-ai-problem-they-have-an-innovation-problem": {
+    "title": "Build a useful marketing testing habit | Fyntix",
+    "description": "Turn marketing experiments into a repeatable habit by choosing a clear question, recording the change and reviewing the evidence.",
+    "file": "/page-data/feed__most-organisations-dont-have-an-ai-problem-they-have-an-innovation-problem.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/native-agent-identity-isnt-the-finish-line": {
+    "title": "Make your business information consistent for AI discovery | Fyntix",
+    "description": "Give customers and discovery systems a consistent account of your services, contact details, markets and supporting evidence.",
+    "file": "/page-data/feed__native-agent-identity-isnt-the-finish-line.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/onboarding-memory-capture-learnings": {
+    "title": "The marketing handover your agency needs | Fyntix",
+    "description": "Prepare the business information, account access and customer context an agency needs to begin useful work without repeated delays.",
+    "file": "/page-data/feed__onboarding-memory-capture-learnings.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/press": {
+    "title": "Previous Press Coverage | Fyntix Archive",
+    "description": "Archived press coverage. Visit Fyntix Blogs for practical guidance on SEO, AI search visibility, paid advertising, content and growth reporting.",
+    "file": "/page-data/feed__press.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/feed/react-native-for-your-mobile-app": {
+    "title": "Make mobile landing pages work for paid traffic | Fyntix",
+    "description": "Review the message, reading experience and enquiry process on a phone before expanding paid traffic to a landing page.",
+    "file": "/page-data/feed__react-native-for-your-mobile-app.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/scaling-ai-prototypes-into-production": {
+    "title": "Improve existing content before publishing more | Fyntix",
+    "description": "Review useful existing pages for gaps, duplication and outdated information before commissioning another round of articles.",
+    "file": "/page-data/feed__scaling-ai-prototypes-into-production.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/start-2026-right-above-vs-deloitte-for-london-based-enterprise-ai-projects": {
+    "title": "Specialist growth agency or large consultancy? | Fyntix",
+    "description": "Choose support around the decisions and delivery work your business needs, rather than assuming agency size determines the right fit.",
+    "file": "/page-data/feed__start-2026-right-above-vs-deloitte-for-london-based-enterprise-ai-projects.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/the-ai-payoff-starts-with-the-problems-youve-been-avoiding": {
+    "title": "Find the bottleneck before changing your marketing channel | Fyntix",
+    "description": "Locate the gap in discovery, understanding, enquiry or follow-up before replacing a marketing channel that may be doing its job.",
+    "file": "/page-data/feed__the-ai-payoff-starts-with-the-problems-youve-been-avoiding.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/the-fastest-way-to-waste-money-on-ai": {
+    "title": "Where ad budgets get wasted before a campaign learns | Fyntix",
+    "description": "Identify avoidable problems in the offer, destination, targeting and measurement before judging the potential of a paid campaign.",
+    "file": "/page-data/feed__the-fastest-way-to-waste-money-on-ai.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/the-future-of-digital-product-development": {
+    "title": "Search and AI discovery: build a useful presence in both | Fyntix",
+    "description": "Connect established search work with clear, useful answers while keeping observations of AI discovery separate from business outcomes.",
+    "file": "/page-data/feed__the-future-of-digital-product-development.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/the-illusion-of-ai-productivity-why-more-output-hasnt-meant-less-work": {
+    "title": "More content is useful only when it has a job | Fyntix",
+    "description": "Give every article, social post and advertisement a defined reader, useful question and natural next step before increasing production.",
+    "file": "/page-data/feed__the-illusion-of-ai-productivity-why-more-output-hasnt-meant-less-work.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/the-race-to-become-your-single-interface": {
+    "title": "Plan for the questions customers ask in ChatGPT | Fyntix",
+    "description": "Use real buying questions to plan an AI discovery review and identify where your website can explain the business more usefully.",
+    "file": "/page-data/feed__the-race-to-become-your-single-interface.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/the-role-of-a-digital-product-agency-in-start-up-success": {
+    "title": "A practical growth plan for a new business | Fyntix",
+    "description": "Give a new business a focused starting offer, a useful website journey and a manageable way to learn from early marketing activity.",
+    "file": "/page-data/feed__the-role-of-a-digital-product-agency-in-start-up-success.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/top-5-saas-development-agencies-in-london": {
+    "title": "SaaS growth: connect search demand with qualified demos | Fyntix",
+    "description": "Connect SaaS search and campaign activity with customer fit, useful product explanations and a clearly defined demo or sales conversation.",
+    "file": "/page-data/feed__top-5-saas-development-agencies-in-london.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/top-ai-agent-development-companies-in-the-uk-2026": {
+    "title": "GEO, AEO and AIO: what should your business work on? | Fyntix",
+    "description": "Translate SEO, GEO, AEO and AIO into concrete research, content and measurement work that supports relevant customer discovery.",
+    "file": "/page-data/feed__top-ai-agent-development-companies-in-the-uk-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/top-ai-development-companies-in-the-uk-2026": {
+    "title": "Google Ads, Meta or TikTok: choose a useful first test | Fyntix",
+    "description": "Choose an initial paid channel around customer behaviour, a clear offer, creative capacity and the question your test should answer.",
+    "file": "/page-data/feed__top-ai-development-companies-in-the-uk-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/top-ai-product-agencies-for-enterprises-2026": {
+    "title": "Build a marketing report that supports decisions | Fyntix",
+    "description": "Organise reporting around business questions, clearly defined measures and a short list of decisions the team can act on.",
+    "file": "/page-data/feed__top-ai-product-agencies-for-enterprises-2026.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/vue-vs-react": {
+    "title": "Google Ads versus Meta Ads: intent, creative and measurement | Fyntix",
+    "description": "Compare Google and Meta campaigns through the customer context, message, destination and reporting approach rather than a universal winner.",
+    "file": "/page-data/feed__vue-vs-react.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/what-is-a-digital-product-agency": {
+    "title": "What Fyntix means by business growth | Fyntix",
+    "description": "Understand how Fyntix connects being found, communicating a useful offer and measuring meaningful customer responses.",
+    "file": "/page-data/feed__what-is-a-digital-product-agency.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/what-is-a-forward-deployed-engineer": {
+    "title": "What an SEO specialist should do beyond rankings | Fyntix",
+    "description": "Look for useful work across technical foundations, intent research, page improvements, implementation and business-aware reporting.",
+    "file": "/page-data/feed__what-is-a-forward-deployed-engineer.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/what-revoluts-design-system-taught-us-about-shipping-fast": {
+    "title": "A practical Meta and TikTok creative testing plan | Fyntix",
+    "description": "Organise Meta and TikTok creative around customer questions, distinct ideas and a review process that informs the next production brief.",
+    "file": "/page-data/feed__what-revoluts-design-system-taught-us-about-shipping-fast.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/why-ux-ui-design-is-crucial-for-digital-product-success": {
+    "title": "Improve the journey from ad click to enquiry | Fyntix",
+    "description": "Review the complete path from an advertisement to a useful enquiry, including the information, action and follow-up a prospect receives.",
+    "file": "/page-data/feed__why-ux-ui-design-is-crucial-for-digital-product-success.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/your-ai-is-only-as-good-as-the-knowledge-it-can-retrieve": {
+    "title": "Build useful answer-led content from real expertise | Fyntix",
+    "description": "Turn approved specialist knowledge into clear answers, contextual examples and useful pages that help people evaluate your services.",
+    "file": "/page-data/feed__your-ai-is-only-as-good-as-the-knowledge-it-can-retrieve.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/your-ai-pilot-worked-now-who-owns-it": {
+    "title": "Keep campaign accounts, data and reporting organised | Fyntix",
+    "description": "Keep marketing accounts, approved information and reporting organised so the business can understand and maintain the programme as people change.",
+    "file": "/page-data/feed__your-ai-pilot-worked-now-who-owns-it.json",
+    "modified": "2026-11-24"
+  },
+  "/feed/your-ai-rollout-needs-better-behaviour-design": {
+    "title": "Turn monthly marketing reports into better decisions | Fyntix",
+    "description": "Use a regular marketing review to assess previous actions, resolve the important questions and leave with a clear next work plan.",
+    "file": "/page-data/feed__your-ai-rollout-needs-better-behaviour-design.json",
+    "modified": "2026-11-24"
+  },
+  "/industries/property": {
+    "title": "Previous Property Services | Fyntix Archive",
+    "description": "Archived property-sector page. Explore current Fyntix services in local SEO, AI search visibility, paid advertising and content strategy.",
+    "file": "/page-data/industries__property.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/industries/retail": {
+    "title": "Previous Retail Services | Fyntix Archive",
+    "description": "Archived retail-sector page. Explore current Fyntix services in search and AI visibility, paid media, content strategy and business growth.",
+    "file": "/page-data/industries__retail.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/privacy-policy": {
+    "title": "Privacy Policy | Fyntix",
+    "description": "How Fyntix handles website visits, direct enquiries, personal information and privacy choices. Contact info@fyntix.com with privacy questions.",
+    "file": "/page-data/privacy-policy.json",
+    "modified": "2026-11-24"
+  },
+  "/services": {
+    "title": "Fyntix Services | SEO, AI Visibility, Ads & Content",
+    "description": "Explore SEO, GEO, AEO, AIO and AI search visibility, Google Ads, Meta Ads, TikTok Ads, content strategy and growth reporting with Fyntix.",
+    "file": "/page-data/services.json",
+    "modified": "2026-11-24"
+  },
+  "/services/ai-agency": {
+    "title": "Previous AI Agency Services | Fyntix Archive",
+    "description": "Archived service page. Discover Fyntix’s current SEO, AI search visibility, Google, Meta and TikTok Ads, content strategy and growth services.",
+    "file": "/page-data/services__ai-agency.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/services/ai-agent-development": {
+    "title": "Previous Agent Development Services | Fyntix Archive",
+    "description": "Archived service page. Fyntix’s current focus is search and AI visibility, paid advertising, useful content and measurable business growth.",
+    "file": "/page-data/services__ai-agent-development.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/services/ai-product-design": {
+    "title": "Previous Product Design Services | Fyntix Archive",
+    "description": "Archived service page. Explore Fyntix’s current Search & AI Visibility and Paid Media & Content services, including SEO, advertising and content.",
+    "file": "/page-data/services__ai-product-design.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/services/digital-product-agency": {
+    "title": "Previous Digital Product Services | Fyntix Archive",
+    "description": "Archived service page. See Fyntix’s current services for SEO, AI search visibility, paid advertising, content strategy and growth reporting.",
+    "file": "/page-data/services__digital-product-agency.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/services/forward-deployed-engineers": {
+    "title": "Previous Engineering Services | Fyntix Archive",
+    "description": "Archived service page. Fyntix’s current services connect search and AI visibility with paid media, useful content and business growth.",
+    "file": "/page-data/services__forward-deployed-engineers.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/terms": {
+    "title": "Terms & Conditions | Fyntix",
+    "description": "Read Fyntix’s website terms, service scope, project agreements, performance information, intellectual-property guidance and contact details.",
+    "file": "/page-data/terms.json",
+    "modified": "2026-11-24"
+  },
+  "/webinars/ai-metrics": {
+    "title": "Previous AI Metrics Webinar | Fyntix Archive",
+    "description": "Archived webinar. Visit Fyntix Blogs for current guides to search visibility, paid media, content strategy and measuring business growth.",
+    "file": "/page-data/webinars__ai-metrics.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/webinars/build-vs-buy": {
+    "title": "Previous Build vs Buy Webinar | Fyntix Archive",
+    "description": "Archived webinar. Explore Fyntix’s current search, AI visibility, advertising and content services, or read practical guides on Fyntix Blogs.",
+    "file": "/page-data/webinars__build-vs-buy.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/work": {
+    "title": "Fyntix Work | Search, Ads & Growth Case Studies",
+    "description": "Explore Fyntix case studies in SEO, AI search visibility, Google Ads, content and conversion, with project context, performance charts and results.",
+    "file": "/page-data/work.json",
+    "modified": "2026-11-24"
+  },
+  "/work/homereach/from-confusing-journeys-to-clearer-choices": {
+    "title": "Home Reach Website Journeys | Fyntix Archive",
+    "description": "Archived website-journey case study. Explore current Fyntix case studies in SEO, AI search visibility, paid media, content and conversion.",
+    "file": "/page-data/work__homereach__from-confusing-journeys-to-clearer-choices.json",
+    "archived": true,
+    "modified": "2026-11-24"
+  },
+  "/work/smartrent/ai-search-growth": {
+    "title": "SmartRent | AI Search Growth Case Study | Fyntix",
+    "description": "How our AI search visibility work helped SmartRent generate qualified sales opportunities, with the strategy, measurement and reported results.",
+    "file": "/page-data/work__smartrent__ai-search-growth.json",
+    "modified": "2026-11-24"
+  },
+  "/work/spartan-plumbing/google-ads-growth": {
+    "title": "Spartan Plumbing | Google Ads Case Study | Fyntix",
+    "description": "Explore our Google Ads work for Spartan Plumbing, with campaign strategy, lead generation and a detailed July 2026 performance breakdown.",
+    "file": "/page-data/work__spartan-plumbing__google-ads-growth.json",
+    "modified": "2026-11-24"
+  },
+  "/work/sidekik/saas-growth-marketing": {
+    "title": "Sidekik | SaaS Growth Marketing Case Study | Fyntix",
+    "description": "Our growth marketing work for Sidekik: launch visibility, search and lifecycle marketing, with growth, email and website performance reporting.",
+    "file": "/page-data/work__sidekik__saas-growth-marketing.json",
+    "modified": "2026-11-24"
+  },
+  "/work/property-management-toronto/seo-growth": {
+    "file": "/page-data/work__property-management-toronto__seo-growth.json",
+    "title": "Property Management Toronto | SEO Case Study | Fyntix",
+    "description": "Our local SEO work for Property Management Toronto: 47% more organic clicks, 124% more booked consultations and stronger local search visibility.",
+    "modified": "2026-11-24"
+  },
+  "/work/brown-boys-motor-club/seo-growth": {
+    "title": "Brown Boys Motor Club | SEO Growth | Fyntix",
+    "description": "A six-month local SEO case study: Brown Boys Motor Club grew from 375 to 2,290 organic clicks, with 142,000 impressions and better search positions.",
+    "file": "/page-data/work__brown-boys-motor-club__seo-growth.json",
+    "modified": "2026-11-24"
+  },
+  "/work/kent-state-university/higher-education-growth": {
+    "title": "Kent State University | SEO & PPC Case Study | Fyntix",
+    "description": "Our higher-education growth work for Kent State University, combining SEO, paid search and conversion improvements with historical lead and ROI results.",
+    "file": "/page-data/work__kent-state-university__higher-education-growth.json",
+    "modified": "2026-11-24"
+  },
+  "/cookie-policy": {
+    "file": "/page-data/cookie-policy.json",
+    "title": "Cookie Policy & Settings | Fyntix",
+    "description": "Understand Fyntix’s necessary preference cookie and optional Vimeo media. Review, save or withdraw your external-media choice in Cookie settings.",
+    "modified": "2026-11-24"
+  }
+}

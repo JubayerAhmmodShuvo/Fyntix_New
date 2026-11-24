@@ -1,0 +1,12 @@
+{
+  "brand": "Fyntix",
+  "sourceCommit": "b10559f1833d483c4ca0b1867ed0467cd990c2aa",
+  "exportDate": "2026-11-24",
+  "target": "vercel",
+  "siteIdentity": "New project required; original account identity excluded",
+  "forms": "No submission backend; contact info@fyntix.com",
+  "includedFixes": [
+    "Restored original Stories section",
+    "Visible left and right Stories carousel arrows"
+  ]
+}
