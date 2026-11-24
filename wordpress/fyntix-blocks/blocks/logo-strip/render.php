@@ -1,34 +1,88 @@
 <?php
-$heading = $attributes['heading'] ?? 'Trusted by ambitious global teams to build what's next.';
-
-// Real client logos from the site
-$logos = [
-	['name' => 'Fanshawe', 'file' => 'fanshawe-logo.svg'],
-	['name' => 'Possible', 'file' => 'possible-logo.svg'],
-	['name' => 'Family Plumber', 'file' => 'family-plumber-logo.svg'],
-	['name' => 'Morcos Law', 'file' => 'morcos-law-logo.svg'],
-	['name' => 'Total Restoration', 'file' => 'total-restoration-logo.svg'],
-	['name' => 'SmartRent', 'file' => 'smartrent-logo.svg'],
-	['name' => 'SurveyWorks', 'file' => 'surveyworks-logo.svg'],
-	['name' => 'Heron AI', 'file' => 'heron-ai-logo.svg'],
-];
+/**
+ * Logo Strip - Exact copy from original site
+ */
 
 $wrapper_attributes = get_block_wrapper_attributes([
-	'class' => 'fyntix-logo-strip bg-chalk py-16'
+	'id' => 'section-clients',
+	'class' => 'section-shell relative pointer-events-auto',
 ]);
+
+// Real client logos from live site
+$logos = [
+	['file' => 'fanshawe-driving-school.webp', 'alt' => 'Fanshawe Driving School'],
+	['file' => 'possible.png', 'alt' => 'Possible'],
+	['file' => 'the-family-plumber.svg', 'alt' => 'The Family Plumber'],
+	['file' => 'morcos-law-group.png', 'alt' => 'Morcos Law Group'],
+	['file' => 'total-restoration.svg', 'alt' => 'Total Restoration'],
+	['file' => 'survey-works.png', 'alt' => 'Survey Works'],
+	['file' => 'pifi.webp', 'alt' => 'PiFi'],
+	['file' => 'client-logo.svg', 'alt' => 'Client'],
+];
 ?>
 
-<section <?php echo $wrapper_attributes; ?>>
-	<div class="container px-gutter max-md:px-gutter-mobile">
-		<h2 class="text-center text-lg md:text-xl text-haze-800 font-medium mb-12">
-			<?php echo esc_html($heading); ?>
+<section <?php echo $wrapper_attributes; ?> data-v-1c6297c3="">
+	<div class="section-shell-padding px-gutter max-md:px-gutter-mobile md:py-28 max-md:py-20" data-v-1c6297c3="">
+		<h2 class="section-heading section-heading--secondary text-center mb-12 md:mb-16" data-v-5ed0f8b6="">
+			Trusted by ambitious global teams to build what's next.
 		</h2>
-		<div class="fyntix-logo-strip__grid grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center justify-items-center">
+		<div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-10 md:gap-x-20 md:gap-y-14">
 			<?php foreach ($logos as $logo): ?>
-			<div class="fyntix-logo-strip__logo opacity-60 hover:opacity-100 transition-opacity">
-				<img src="<?php echo esc_url(plugins_url('assets/client-logos/' . $logo['file'], dirname(__DIR__))); ?>" alt="<?php echo esc_attr($logo['name']); ?>" loading="lazy" class="max-w-full h-8" />
+			<div class="fyntix-client-logo-wrapper flex-shrink-0">
+				<img 
+					src="<?php echo esc_url(plugins_url('assets/client-logos/' . $logo['file'], dirname(__DIR__))); ?>" 
+					alt="<?php echo esc_attr($logo['alt']); ?>" 
+					class="fyntix-client-logo" 
+					loading="lazy"
+					decoding="async"
+				/>
 			</div>
 			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
+
+<style>
+/* Exact CSS from original src/replica.css */
+#section-clients .fyntix-client-logo {
+	max-width: min(16rem, 100%);
+	max-height: 4.75rem;
+	object-fit: contain;
+	transform: scale(0.7);
+	transform-origin: center;
+	opacity: 0.6;
+	transition: opacity 0.2s ease;
+}
+
+#section-clients .fyntix-client-logo:hover {
+	opacity: 1;
+}
+
+#section-clients .fyntix-client-logo[src$="/possible.png"],
+#section-clients .fyntix-client-logo[src$="/the-family-plumber.svg"] {
+	transform: scale(0.77);
+}
+
+#section-clients .fyntix-client-logo--monochrome {
+	filter: brightness(0);
+}
+
+.section-heading--secondary {
+	font-size: clamp(1.125rem, 2vw, 1.375rem);
+	font-weight: 500;
+	line-height: 1.3;
+	color: var(--wp--preset--color--haze-800, #6f6f6f);
+}
+
+.px-gutter {
+	padding-left: clamp(1.5rem, 5vw, 3rem);
+	padding-right: clamp(1.5rem, 5vw, 3rem);
+}
+
+@media (max-width: 767px) {
+	.max-md\:px-gutter-mobile {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+</style>
