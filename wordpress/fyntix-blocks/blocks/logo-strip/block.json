@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/logo-strip",
+  "title": "Logo Strip",
+  "category": "fyntix",
+  "icon": "images-alt2",
+  "description": "Display client or partner logos in a horizontal strip",
+  "keywords": ["logos", "clients", "partners"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Trusted by ambitious global teams"
+    },
+    "logos": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}

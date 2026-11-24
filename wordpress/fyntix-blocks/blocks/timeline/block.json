@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/timeline",
+  "title": "Timeline (90-Day)",
+  "category": "fyntix",
+  "icon": "calendar-alt",
+  "description": "Display a 90-day timeline of milestones",
+  "keywords": ["timeline", "process", "steps", "milestones"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "From first call to real leads in 90 days"
+    },
+    "milestones": {
+      "type": "array",
+      "default": [
+        {
+          "days": "Days 1–7",
+          "title": "Growth audit",
+          "description": "We audit your SEO, AI visibility, ads and competitors to set clear growth priorities."
+        },
+        {
+          "days": "Days 8–30",
+          "title": "Growth baseline",
+          "description": "Set up tracking, establish baselines and create your first content brief."
+        },
+        {
+          "days": "Days 31–60",
+          "title": "Launch & optimize",
+          "description": "Launch campaigns, publish content and start optimizing based on data."
+        },
+        {
+          "days": "Days 61–90",
+          "title": "Scale & refine",
+          "description": "Scale what works, refine what doesn't, and prepare for sustainable growth."
+        }
+      ]
+    }
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}

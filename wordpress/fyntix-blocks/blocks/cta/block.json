@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/cta",
+  "title": "Call to Action",
+  "category": "fyntix",
+  "icon": "megaphone",
+  "description": "Call to action section with title, description and button",
+  "keywords": ["cta", "call", "action", "button"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Ready to grow?"
+    },
+    "description": {
+      "type": "string",
+      "default": "Let's talk about your business goals and how we can help you get found, chosen and remembered."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Get started"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "charcoal"
+    }
+  },
+  "supports": {
+    "align": ["full"],
+    "anchor": true
+  },
+  "render": "file:./render.php"
+}

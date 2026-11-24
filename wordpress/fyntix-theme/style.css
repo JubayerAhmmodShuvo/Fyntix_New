@@ -1,0 +1,128 @@
+/*
+Theme Name: Fyntix
+Theme URI: https://fyntix.com
+Author: Fyntix Team
+Author URI: https://fyntix.com
+Description: Custom block theme for Fyntix - business growth agency connecting Search & AI Visibility with Paid Media & Content
+Version: 1.0.0
+Requires at least: 6.9
+Tested up to: 6.9
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fyntix
+Tags: block-theme, custom-blocks, full-site-editing
+*/
+
+/* Font Faces */
+@font-face {
+  font-family: 'Inter Display';
+  src: url('assets/fonts/InterDisplay-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('assets/fonts/InterDisplay-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('assets/fonts/InterDisplay-Semibold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('assets/fonts/Inter-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('assets/fonts/Inter-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('assets/fonts/Inter-BoldItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Instrument Serif';
+  src: url('assets/fonts/InstrumentSerif-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Base Styles */
+:root {
+  --font-sans: 'Inter Display', sans-serif;
+  --font-serif: 'Instrument Serif', serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.5rem, 5vw, 3rem);
+  padding-right: clamp(1.5rem, 5vw, 3rem);
+}
+
+.container-wide {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.5rem, 5vw, 3rem);
+  padding-right: clamp(1.5rem, 5vw, 3rem);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Focus Styles */
+*:focus-visible {
+  outline: 2px solid var(--wp--preset--color--spark);
+  outline-offset: 2px;
+}
+
+/* Image Lazy Loading */
+img[loading="lazy"] {
+  content-visibility: auto;
+}

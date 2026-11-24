@@ -1,0 +1,62 @@
+FYNTIX WORDPRESS - QUICK INSTALL STEPS
+======================================
+
+Requirements:
+- WordPress 6.9+
+- PHP 8.0+
+- MySQL 5.7+ or MariaDB 10.3+
+
+Installation (5 minutes):
+==========================
+
+1. Install WordPress
+   - Fresh WordPress 6.9+ install on your server or localhost
+
+2. Install Theme
+   - Go to: Appearance → Themes → Add New Theme → Upload Theme
+   - Upload: release/fyntix-theme.zip
+   - Click: Install Now → Activate
+
+3. Install Plugin
+   - Go to: Plugins → Add New Plugin → Upload Plugin
+   - Upload: release/fyntix-blocks.zip
+   - Click: Install Now → Activate
+
+4. Create Homepage
+   - Go to: Pages → Add New Page
+   - Title: "Home"
+   - Use block inserter to add blocks from "Fyntix Blocks" category:
+     * Fyntix Hero
+     * Logo Strip
+     * Growth Stats
+     * Platform Results
+     * Services Pillar (2x, different backgrounds)
+     * Timeline
+     * Report Mockup
+     * Testimonials
+     * Call to Action
+   - Publish the page
+
+5. Set Homepage
+   - Go to: Settings → Reading
+   - Set: "Your homepage displays" → "A static page"
+   - Choose: "Home" as homepage
+   - Save Changes
+
+6. Create Menus (Optional)
+   - Go to: Appearance → Editor → Navigation
+   - Create Primary and Footer menus
+
+7. Add Blog Posts
+   - Go to: Posts → Add New
+   - Create posts as needed
+   - Blog archive automatically at /blog/
+
+8. Install SEO Plugin (Recommended)
+   - Install Yoast SEO or Rank Math
+   - Configure SEO settings
+
+DONE! Your site should now match the original Fyntix site.
+
+For detailed docs, see README.md
+For block list, see BLOCKS_CREATED.md

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fyntix/hero",
+  "title": "Fyntix Hero",
+  "category": "fyntix",
+  "icon": "cover-image",
+  "description": "Hero section with title, subtitle and CTA",
+  "keywords": ["hero", "header", "banner"],
+  "textdomain": "fyntix-blocks",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Business growth that gets you seen"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Fyntix is a business growth agency. We make sure your customers find you everywhere, from Google Search to ChatGPT."
+    },
+    "ctaText": {
+      "type": "string",
+      "default": "Get started"
+    },
+    "ctaUrl": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "chalk"
+    }
+  },
+  "supports": {
+    "align": ["full"],
+    "anchor": true,
+    "spacing": {
+      "padding": true,
+      "margin": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
